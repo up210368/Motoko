@@ -40,7 +40,7 @@ actor {
     return Iter.toArray(students.entries());
   };
 
-  public func delectStudents(id: Text) : async (){
+  public func deleteStudents(id: Text) : async (){
     students.delete(id);
   };
 }
